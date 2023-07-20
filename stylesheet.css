@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00ffff;
+    font-family: 'Georgia';
+}
+
+
+
+header img {
+    width: 20%;
+    opacity: 3;
+}
+
+#nav-links {
+    display: flex;
+    gap: 10vw;
+}
+
+main {
+    height: 200vh;
+}
+
+#apresentation {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    flex-wrap: wrap;
+    background-color: rgb(12, 188, 188);
+
+}
+
+#apresentation div {
+    margin-top: 10%;
+    row-gap: 80px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+
+
+#apresentation h1,
+h4 {
+    height: 10%;
+}
+
+#apresentation figure {
+    height: 70%;
+}
+
+#apresentation h4 {
+    text-align: center;
+}
+
+#apresentation img {
+    height: 100%;
+}
+
+#apresentation button {
+    border-color: grey;
+    border-radius: 10px;
+    height: 10vh;
+    width: 10vw;
+    font-weight: 600;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 25%;
+    margin-left: 10vw;
+}
+
+#section-advantages {
+    background-color: rgb(21, 202, 202);
+    height: 70vh;
+    text-align: center;
+    padding: 5%;
+    background-image: url();
+
+}
+
+#section-advantages h4 {
+    margin: 8% 15%;
+}
+
+#container-advantages {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#container-advantages ul {
+    padding: 2%;
+}
+
+li {
+    list-style-type: none;
+    margin: 5%;
+    font-size: larger;
+    font-family: 'Georgia';
+}
+
+
+
+#section-our-clients {
+    background-color: rgb(20, 222, 222);
+    text-align: center;
+    padding: 2%;
+}
+
+#figure-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5 {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 20vh;
+    width: 15vw;
+    background-image: c;
+    background-color: red;
+}
+
+
+
+
+footer{
+    height: 20vh;
+    background-color: rgb(221, 210, 210);
+    display: flex;;
+    align-items: center;
+    padding-left: 2%;
+    gap: 2%;
+    
+}
+
+#footer-copy{
+    margin-left: 70vw;
+    height: 2vh;
+       
+}
+
+footer h2{
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+footer  img{
+    height: 4vh;
+    
+}
